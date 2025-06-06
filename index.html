@@ -73,9 +73,61 @@
   .resume-btn:hover {
     background-color: #1e40af;
   }
+    .navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #111827;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
   </style>
 </head>
 <body>
+  <nav class="navbar">
+  <div class="nav-wrapper">
+    <a href="#top" class="brand">Samrat Kumar Das</a>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
   <div class="container">
     <header>
       <div class="intro">
@@ -109,7 +161,9 @@
           ⬇️ Download My Resume
         </a>
     </section>
-
+    <section id="projects">...</section>
+    <section id="resume">...</section>
+    <section id="contact">...</section>
     
     <section>
       <h2>📩 Contact</h2>
