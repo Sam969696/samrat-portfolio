@@ -57,34 +57,26 @@
       margin: 0 auto;
       padding: 2rem;
     }
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
+    .intro-box {
+      text-align: center;
+      padding: 4rem 2rem 2rem;
     }
-    .intro {
-      max-width: 600px;
-    }
-    .intro h1 {
-      font-size: 2.5rem;
+    .intro-box h1 {
+      font-size: 2.75rem;
       font-weight: 800;
       margin-bottom: 0.5rem;
     }
-    .intro p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 1rem;
-    }
-    .avatar {
-      max-width: 280px;
+    .intro-box p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
     }
     section {
-      margin-top: 3rem;
+      margin-top: 4rem;
     }
     h2 {
-      font-size: 1.5rem;
-      font-weight: 600;
+      font-size: 1.75rem;
+      font-weight: 700;
       margin-bottom: 1rem;
     }
     a {
@@ -126,21 +118,16 @@
     </div>
   </nav>
 
-  <div class="container" id="top">
-    <header>
-      <div class="intro">
-        <h1>Hello 👋, I'm Samrat Kumar Das</h1>
-        <p>
-          Senior Application Engineer at <strong>Synopsys</strong> with 9+ years of expertise in <strong>Formal Verification Methodologies, CDC/RDC,</strong> and <strong>Lint</strong>.
-          Currently exploring <em>Formal-First Design Methodology</em> and building a portfolio of reusable formal testbenches.
-        </p>
-        <p>🌍 Open to global roles & collaboration in Formal Verification.</p>
-      </div>
-      <div class="avatar">
-        <img src="avatar.png" alt="Cartoon of Samrat Kumar Das" width="100%">
-      </div>
-    </header>
+  <div id="top" class="intro-box">
+    <h1>Hello 👋, I'm Samrat Kumar Das</h1>
+    <p>
+      I’m a Senior Application Engineer at <strong>Synopsys</strong> with over 9 years of experience in <strong>Formal Verification Methodologies</strong>, <strong>CDC/RDC</strong>, and <strong>Lint</strong>. 
+      I specialize in assertion-based design verification using <strong>JasperGold</strong> and <strong>VC Formal</strong>, and am currently building a public portfolio of reusable formal design testbenches to promote Formal-First Design.
+    </p>
+    <p>🌍 Open to global roles & collaboration in Formal Verification.</p>
+  </div>
 
+  <div class="container">
     <section id="projects">
       <h2>📁 Featured Projects</h2>
       <div class="card">
